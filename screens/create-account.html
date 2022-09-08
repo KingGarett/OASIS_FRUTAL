@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/style.css"> 
+    <link rel="stylesheet" href="../assets/css/create-account/form.css">
+    <link rel="stylesheet" href="../assets/css/create-account/container.css">
+    <link rel="stylesheet" href="../assets/css/create-account/footer.create.account.css">
+    <link rel="stylesheet" href="../assets/css/create-account/span.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Create account</title>
+</head>
+<body>
+<div class="sup-container">
+    <div class="container">
+        <form class="form-create" data-create-form>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="ejemplo@ejemplo.com" class="email-create" data-tipo="email" required>
+            <div class="hidden" data-div>
+                <img class="input-messaje-error--icon" src="../assets/img/icon/error.png" alt="error">
+                <span class="input-messaje-error">Este campo no es valido</span>
+            </div>
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" placeholder="******************" class="password-create" data-tipo="password" required pattern="(?=[\w.]*\d)(?=[\w.]*[A-Z])(?=[\w.]*[a-z])\S{6,20}$">
+            <div class="hidden" data-div>
+                <img class="input-messaje-error--icon" src="../assets/img/icon/error.png" alt="error">
+                <span class="input-messaje-error">Este campo no es valido</span>
+            </div>
+
+            <label for="repear-pass">Repeat Pass</label>
+            <input type="password" name="repeat-pass" placeholder="******************" class="repeat-password-create" data-tipo="repeat_password" required pattern="(?=[\w.]*\d)(?=[\w.]*[A-Z])(?=[\w.]*[a-z])\S{6,20}$">
+            <div class="hidden" data-div>
+                <img class="input-messaje-error--icon" src="../assets/img/icon/error.png" alt="error">
+                <span class="input-messaje-error">Este campo no es valido</span>
+            </div>
+            
+            <button class="form-btn" data-create-btn >Create account
+        </form>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="../assets/js/services/users.js"></script>
+<script type="module" src="../assets/js/controllers/register_user.js"></script>
+<script src="../assets/js/auth/validation.js"></script>
+</body>
+<footer class="footer">
+    <h5 class="mention">Desarrollado por Javier Marinelli<br>2022</h5>
+</footer>
+</html>

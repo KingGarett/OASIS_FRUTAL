@@ -1,0 +1,25 @@
+:root{
+    /* Fonts */
+
+    --edu: 'Edu TAS Beginner', cursive;
+    --monserrat: 'Montserrat', sans-serif;
+    
+    /*Colours*/
+
+    --cremita: rgb(247, 231, 211);
+    --blanco-oscuro: #fbfbfb;
+
+    /*Displays*/
+
+}
+
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+
+.hidden{
+    visibility: hidden;
+}

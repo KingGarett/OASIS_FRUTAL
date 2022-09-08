@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--blanco-oscuro);
+    color: rgb(94, 95, 95);
+}
+
+.mention{
+    text-align: center;
+    font-size: 1.3rem;
+}

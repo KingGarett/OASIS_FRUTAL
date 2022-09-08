@@ -1,0 +1,73 @@
+.information{
+    background: linear-gradient(rgb(192, 245, 192),rgb(126, 235, 126)) ;
+    font-family: var(--monserrat);
+}
+
+.information_container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information_logo{
+    width: 25%;
+    justify-content: center;
+}
+
+.information_list{
+    width: 25%;
+}
+
+.information_form{
+    width: 50%;
+}
+
+.information_list_container{
+    margin: 0;
+    list-style: none;
+
+}
+
+.information_list_link{
+    text-decoration: none;
+    color: inherit;
+    line-height: 180%;
+}
+
+/*      FORM        */
+
+.information_form_legend{
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 600;
+}
+
+.information_form_form{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 220px;
+    justify-content: space-between;
+}
+
+#name{
+    padding: .5rem 0;
+}
+
+.information_form_btn{
+    padding: 1rem 2rem ;
+    width: 30%;
+}
+
+.footer{
+    height: 100px;
+    text-align: center;
+}
+
+.mention{
+    align-items: center  ;
+    padding: 2.5rem 0;
+    font-size: 100%;
+    color: rgb(94, 95, 95);
+}

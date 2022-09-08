@@ -1,0 +1,20 @@
+.input-messaje-error--container{
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.input-messaje-error--icon{
+    width: 3vw;
+    margin-right: .5rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.input-messaje-error{
+    color: white;
+    border: 1px solid white;
+    padding: .2rem ;
+    font-size: 1.7vw;
+    width: 20rem;
+}

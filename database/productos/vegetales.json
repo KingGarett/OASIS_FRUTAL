@@ -1,0 +1,13 @@
+{
+    "productos": [
+        {
+            "nombre": "Tomate Redondo",
+            "precio": 200,
+            "oferta":"-"
+        },{
+            "nombre": "Tomate Redondo",
+            "precio": 200,
+            "oferta":"-"
+        }
+    ]   
+}

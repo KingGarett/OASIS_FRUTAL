@@ -1,0 +1,9 @@
+{
+  "cuenta": [
+    {
+      "email": "ejemplo@ejemplo.com",
+      "password": "ejemploejemplo",
+      "id": "root"
+    }
+  ]
+}

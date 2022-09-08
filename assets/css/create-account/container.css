@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(rgb(86, 155, 86),rgb(2, 63, 2)) ;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.sup-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,rgb(119, 70, 5),rgb(77, 44, 1));
+    border-radius: 20px;
+}

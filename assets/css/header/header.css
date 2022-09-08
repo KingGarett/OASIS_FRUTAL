@@ -1,0 +1,46 @@
+html{
+    background-color: var(--blanco-oscuro);
+}
+
+header{
+    font-family: var(--edu);
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 2.5% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--position{
+    background-color: white;
+    position: fixed;
+}
+
+.header_container{
+    display: flex;
+    width: 80%;
+}
+
+.header_container_tittle{
+    font-size: calc(1em + 1vw);
+    margin-right: 3%;
+}
+
+.header_container_search{
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+    padding-left: 2%;
+}
+.header_container_search:focus{
+    outline: 0;
+}
+
+.header_login{
+    width: 20%;
+}
+/*rgba(253, 255, 117, 0.89)*/

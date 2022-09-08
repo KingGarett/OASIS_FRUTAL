@@ -1,0 +1,46 @@
+.banner{
+    background-image: url(../../img/head-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.banner--color{
+    background-color: rgba(109, 250, 116, 0.25);
+    padding: 1rem 0rem;
+}
+
+.banner_container{
+    padding-top: 15%;
+    padding-bottom: 3% ;
+    margin: 0 10%;
+    color: rgb(245, 245, 245);
+}
+
+.banner_tittle{
+    display: inline;
+    padding: 0 2%;
+    background-color: rgba(0, 0, 0, .5);
+    font-size:calc(3em + 1vw) ;
+    font-weight: 600;
+    margin:0;
+}
+
+.banner_description{
+    color: black;
+    padding: 0 2%;
+    background-color: rgba(109, 250, 116, 1);
+    font-size: calc(.5em + 1vw);
+    margin: 1% 0;
+}
+
+.banner_btn{
+    background-color: rgb(6, 53, 16);
+    color: white;
+    font-weight: 600;
+    width: 10%;
+    padding: .5% 1%;
+    border: 2px solid white;
+}
