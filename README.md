@@ -14,7 +14,7 @@
    - Navegacion entre categorias de producto.
    - Seccion de productos y seccion de ofertas, donde en esta ultima se colocan automaticamente los productos que tengan escrito el campo oferta
    - Carrito de compras
-   - Cuando el cliente finalice la compra, se generará una lista que el cliente recibirá en su whatsapp adjuntado al nombre del cliente.
+   - Cuando el lead finalice la compra, se generará una lista que el cliente recibirá en su whatsapp adjuntado al nombre del cliente.
    - Formulario de contacto
  
 En el futuro se agregara el pago con tarjeta o medios digitales y démas funcionalidades que vallan surgiendo con la implementacion de la pagina.
