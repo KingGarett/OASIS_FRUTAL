@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/banner.css">
     <link rel="stylesheet" href="./assets/css/header/login.css">
-    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/header/searchMenu.css">
+    <link rel="stylesheet" href="./assets/css/products/general__grid.css">
+    <link rel="stylesheet" href="./assets/css/products/header__categority.css">
+    <link rel="stylesheet" href="./assets/css/products/products.css">
+    <link rel="stylesheet" href="./assets/css/products/products__container.css">
+    <link rel="stylesheet" href="./assets/css/products/products__offer.css">
     <link rel="stylesheet" href="./assets/css/information.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,14 +27,14 @@
 </head>
 <body>
 <header>                            <!--HEADER-->    
-    <section class="header ">
+    <section class="header">
         <div class="header_container">
             <img class="header_container_logo" src="#" alt="logo">
             <h3 class="header_container_tittle">OasisFrutal</h3>
             <input class="header_container_search" type="search" placeholder="Selecciona tu producto">
         </div>
         <div class="header_login">
-            <button class="login-btn" >Login</button>
+            <button class="login-btn"data-login >Login</button>
             <span class="none" data-login-container>
                 <input class="login_verific_email" type="email" placeholder="email">
                 <input class="login_verific_password" type="password" placeholder="password">
@@ -45,806 +50,62 @@
         <div class="banner--color">
         <div class="banner_container">                   
             <h1 class="banner_tittle">Priorizando la calidad</h1>
-            <h4 class="banner_description">Los mejores productos al menor precio</h4>
-            <button class="banner_btn">Categoria</button>         
+            <h4 class="banner_description">Los mejores productos al menor precio</h4>                  
         </div>
         </div>
     </section>
+    <nav class="searchMenu">      
+        <ul class="searchMenu__list"></ul>
+            <a href="#" class="searchMenu__list__item" data-home><li class="list__item__link">Ver todo</li></a>
+            <a href="#" class="searchMenu__list__item" data-spa><li class="list__item__link">Vegetales</li></a>
+            <a href="#" class="searchMenu__list__item" data-spa><li class="list__item__link">Frutas</li></a>
+            <a href="#" class="searchMenu__list__item" data-spa><li class="list__item__link">Bandejas</li></a>
+            <a href="#" class="searchMenu__list__item" data-spa><li class="list__item__link">Huevos</li></a>
+            <a href="#" class="searchMenu__list__item" data-spa><li class="list__item__link">Otros</li></a>
+        </ul>
+    </nav>
 </header>
 <main>
 
 <section class="grid">
-<section class="grid_products grid--background">  
-        <div class="head head--background">      <!--VEGETALES-->
-            <h2 class="head_tittle">Vegetales</h2>
-            <a href="#" class="head_link">ver todo</a>
-        </div>
-        <div class="products">
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <div class="products_square_btn-container">
-                        <button class="agregar">agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/tomate-perita.png" alt="tomate-perita">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate Perita</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/tomate-cherry.png" alt="tomate-cherry">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate Cherry</h5>
-                    <h5 class="products_square_price">$90 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/lechuga-repollada.png" alt="lechuga-repollada">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Lechuga Repollada</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/lechuga-manteca.png" alt="lechuga-manteca">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Lechuga Manteca</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/lechuguin.png" alt="lechuguin">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Lechuguin<br>---------</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/lechuga-endivia.png" alt="lechuga-endivia">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Lechuga Endivia</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/zanahoria-oferta.png" alt="zanahoria-oferta">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Zanahoria Oferta</h5>
-                    <h5 class="products_square_price">$100kg</h5>
-                    <h5 class="products_square_offer">2kg x $150</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/zanahoria-cubito.png" alt="zanahoria-cubito">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Zanahoria Cubito</h5>
-                    <h5 class="products_square_price">$200kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/acelga.png" alt="acelga">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Acelga<br>---------</h5>
-                    <h5 class="products_square_price">$100 c/u</h5>
-                    <h5 class="products_square_offer">2u x $150</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/espinaca.png" alt="espinaca">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Espinaca<br>---------</h5>
-                    <h5 class="products_square_price">$120 c/u</h5>
-                    <h5 class="products_square_offer">2u x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/rucula.png" alt="rucula">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Rucula<br>---------</h5>
-                    <h5 class="products_square_price">$130kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>   </a>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/papa-chica.png" alt="papa-chica">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Papa Chica</h5>
-                    <h5 class="products_square_price">$70kg</h5>
-                    <h5 class="products_square_offer">2kg x $100</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/papa-grande.png" alt="papa-grande">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Papa Grande</h5>
-                    <h5 class="products_square_price">$100kg</h5>
-                    <h5 class="products_square_offer">2kg x $180</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/cebolla-chica.png" alt="cebolla-chica">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Cebolla Chica</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/cebolla-grande.png" alt="cebolla-grande">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Cebolla Grande</h5>
-                    <h5 class="products_square_price">$200kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/cebolla-morada.png" alt="cebolla-morada">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Cebolla Morada</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/cebolla-verdeo.png" alt="cebolla-verdeo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Cebolla Verdeo</h5>
-                    <h5 class="products_square_price">$70 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/puerro.png" alt="puerro">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Puerro<br>---------</h5>
-                    <h5 class="products_square_price">$60 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/apio.png" alt="apio">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Apio<br>---------</h5>
-                    <h5 class="products_square_price">$60 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/perejil.png" alt="perejil">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Perejil<br>---------</h5>
-                    <h5 class="products_square_price">$60 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/chaucha.png" alt="chaucha">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Chaucha<br>---------</h5>
-                    <h5 class="products_square_price">$40 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/repollo-blanco.png" alt="repollo-blanco">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Repollo Blanco</h5>
-                    <h5 class="products_square_price">$200 c/u</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/repollo-morado.png" alt="repollo-morado">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Repollo Morado</h5>
-                    <h5 class="products_square_price">$200 c/u</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/remolacha.png" alt="remolacha">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Remolacha<br>---------</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/berenjena.png" alt="berenjena">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Berenjena<br>---------</h5>
-                    <h5 class="products_square_price">$200kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/batata.png" alt="batata">
-                <div class="products_square_info" >
-
-                    <h5 class="products_square_product">Batata<br>---------</h5>
-                    <h5 class="products_square_price">$300kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/batata-boniato.png" alt="batata-boniato">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Batata Boniato</h5>
-                    <h5 class="products_square_price">$300kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/brocoli.png" alt="brocoli">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Brocoli<br>---------</h5>
-                    <h5 class="products_square_price">$200 c/u</h5>
-                    <h5 class="products_square_offer">2u x $300</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/coliflor.png" alt="coliflor">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Coliflor<br>---------</h5>
-                    <h5 class="products_square_price">$200 c/u</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/calabazin.png" alt="calabacin">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Calabacin<br>---------</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/zapallo-negro.png" alt="zapallo-negro">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Zapallo Negro</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/calabaza.png" alt="calabaza">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Calabaza<br>---------</h5>
-                    <h5 class="products_square_price">$250kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/zapallito.jpg" alt="zapallito">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Zapallito<br>---------</h5>
-                    <h5 class="products_square_price">$250kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/zapallito-zukini.png" alt="zapallito-zukini">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Zapallito Zucchini</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pepino.png" alt="pepino">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pepino<br>---------</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pimiento-rojo.png" alt="pimiento-rojo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pimiento Rojo</h5>
-                    <h5 class="products_square_price">$700kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pimiento-amarillo.png" alt="pimiento-amarillo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pimiento Amarillo</h5>
-                    <h5 class="products_square_price">$900kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pimiento-verde.png" alt="pimiento-verde">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pimiento Verde</h5>
-                    <h5 class="products_square_price">$500kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-        </div>
-      
-        <!--FRUITS-->  
-        <div class="head head--background">             
-            <h2 class="head_tittle">Frutas</h2>
-            <a href="#" class="head_link">ver todo</a>
-        </div>
-        <div class="products">
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/banana.png" alt="banana">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Banana<br>---------</h5>
-                    <h5 class="products_square_price">$300kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/naranja-jugo.png" alt="naranja-jugo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Naranja Jugo</h5>
-                    <h5 class="products_square_price">$100kg</h5>
-                    <h5 class="products_square_offer">2kg x $150</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/mandarina-criolla.png" alt="mandarina-criolla">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Mandarina Criolla</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/mandarina-nova.png" alt="mandarina-nova">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Mandarina Nova</h5>
-                    <h5 class="products_square_price">$100kg</h5>
-                    <h5 class="products_square_offer">2kg x $150</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/manzana-pink.png" alt="manzana-pink">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Manzana Pink</h5>
-                    <h5 class="products_square_price">$300kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/manzana-deliciosa.png" alt="manzana-deliciosa">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Manzana Deliciosa</h5>
-                    <h5 class="products_square_price">$350kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/manzana-verde.png" alt="manzana-verde">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Manzana Verde</h5>
-                    <h5 class="products_square_price">$350kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pera.png" alt="pera">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pera<br>---------</h5>
-                    <h5 class="products_square_price">$250kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pomelo.png" alt="pomelo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pomelo Primera</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pomelo.png" alt="pomelo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pomelo Oferta</h5>
-                    <h5 class="products_square_price">$100kg</h5>
-                    <h5 class="products_square_offer">2kg x $150</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/pomelo-rosado.png" alt="pomelo-rosado">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Pomelo Rosado</h5>
-                    <h5 class="products_square_price">-</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/limon.png" alt="limon">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Limon<br>---------</h5>
-                    <h5 class="products_square_price">$100kg</h5>
-                    <h5 class="products_square_offer">2kg x $150</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/aguacate.png" alt="aguacate">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Palta<br>---------</h5>
-                    <h5 class="products_square_price">$120 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/frutilla.png" alt="frutilla">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Frutilla<br>---------</h5>
-                    <h5 class="products_square_price">$140 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/uva-cereza.png" alt="uva-cereza">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Uva<br>---------</h5>
-                    <h5 class="products_square_price">$45 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/uva-verde.png" alt="uva-verde">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Uva verde<br>---------</h5>
-                    <h5 class="products_square_price">-</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/kiwi.png" alt="kiwi">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Kiwi<br>---------</h5>
-                    <h5 class="products_square_price">$65 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/melon.png" alt="melon">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Melon<br>---------</h5>
-                    <h5 class="products_square_price">-</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/sandia.png" alt="sandia">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Sandia<br>---------</h5>
-                    <h5 class="products_square_price">-</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/anana.png" alt="anana">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Anana<br>---------</h5>
-                    <h5 class="products_square_price">-</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/papaya.png" alt="papaya">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Papaya<br>---------</h5>
-                    <h5 class="products_square_price">-</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/mango.png" alt="mango">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Mango<br>---------</h5>
-                    <h5 class="products_square_price">$250c/u</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-        </div>
+<section class="grid__products grid__products--background">  
         
-        <div class="head head--background">      <!--TRAYS-->             
-            <h2 class="head_tittle">Bandejas</h2>
-            <a href="#" class="head_link">ver todo</a>
+        <div class="header__products header__products--background"><!--VEGETALES-->     
+            <h2 class="header__products__tittle">Vegetales</h2>
+            <a href="#" id="1" class="header__products__link">ver todo</a>
         </div>
-        <div class="products">
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/arandanos.png" alt="arandanos">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Arandanos<br>---------</h5>
-                    <h5 class="products_square_price">$300 x 230g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/rucula.png" alt="bandeja-rucula">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Bandeja Rucula</h5>
-                    <h5 class="products_square_price">$200</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/rucula.png" alt="bandeja-achicoria">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Bandeja Achicoria</h5>
-                    <h5 class="products_square_price">$200kg</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="https://i0.wp.com/tubuensabor.cl/wp-content/uploads/2018/02/champi%C3%B1onB.png?w=400&ssl=1" alt="champiñiones">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Champi_ <br> ñones</h5>
-                    <h5 class="products_square_price">$400</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
+        <div class="categority" data-vegetales></div>
+      
+        <div class="header__products header__products--background"><!--FRUTAS-->             
+            <h2 class="header__products__tittle">Frutas</h2>  
+            <a href="#" id="2" class="header__products__link">ver todo</a>
         </div>
-        <div class="head head--background">      <!--EGGS-->             
-            <h2 class="head_tittle">Huevos</h2>
-            <a href="#" class="head_link">ver todo</a>
+        <div class="categority" data-frutas></div>
+        
+        <div class="header__products header__products--background"><!--BANDEJAS-->                  
+            <h2 class="header__products__tittle">Bandejas</h2>
+            <a href="#" id="3" class="header__products__link">ver todo</a>
         </div>
-        <div class="products">
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/huevo-maple.png" alt="heuvo-maple">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Maple Huevo</h5>
-                    <h5 class="products_square_price">$650</h5>
-                    <h5 class="products_square_offer">Gallinas Felices</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/huevo.png" alt="huevo-6u">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Huevo x 6u</h5>
-                    <h5 class="products_square_price">$200</h5>
-                    <h5 class="products_square_offer">Gallinas Felices</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
+        <div class="categority" data-bandejas></div>
+
+        <div class="header__products header__products--background"><!--HUEVOS-->             
+            <h2 class="header__products__tittle">Huevos</h2>
+            <a href="#" id="4" class="header__products__link">ver todo</a>
         </div>
-        <div class="head head--background">      <!--OTHERS-->             
-            <h2 class="head_tittle">Otros</h2>
-            <a href="#" class="head_link">ver todo</a>
+        <div class="categority" data-huevos></div>
+
+        <div class="header__products header__products--background"><!--OTROS-->             
+            <h2 class="header__products__tittle">Otros</h2>
+            <a href="#" id="5" class="header__products__link">ver todo</a>
         </div>
-        <div class="products">
-            <div class="products_square " >
-                <img class="products_square_img" src="./assets/img/jengibre.png" alt="jengibre">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Jengibre</h5>
-                    <h5 class="products_square_price">$70 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/ajis.png" alt="ajis">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Ajies</h5>
-                    <h5 class="products_square_price">$90 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img" src="./assets/img/ajo.png" alt="ajo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Ajo</h5>
-                    <h5 class="products_square_price">$70 c/u</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="products_square">
-                <img class="products_square_img"  style="border-radius: 50%;"  src="./assets/img/quinotos.jpg" alt="quinotos">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Quinotos</h5>
-                    <h5 class="products_square_price">$50 x 100g</h5>
-                    <h5 class="products_square_offer">-</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
+        <div class="categority" data-otros></div>
+      
+        <div class="header__offer header__offer--background"><!--OFERTAS-->  
+            <h2 class="header__products__tittle">Ofertas</h2>
+            <a href="#" id="6" class="header__products__link">ver todo</a>
         </div>
-        <!--OFFERS-->  
-        <div class="offer_head offer_head--background">
-            <h2 class="head_tittle">Ofertas</h2>
-            <a href="#" class="head_link">ver todo</a>
-        </div>
-        <div class="offer_products">
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-            <div class="offer_square">
-                <img class="products_square_img" src="./assets/img/tomate-redondo.png" alt="tomate-redondo">
-                <div class="products_square_info" >
-                    <h5 class="products_square_product">Tomate redondo</h5>
-                    <h5 class="products_square_price">$150kg</h5>
-                    <h5 class="products_square_offer">2kg x $200</h5>
-                    <button class="agregar">agregar al carrito</button>
-                </div>
-            </div>
-        </div>
+        <div class="categorityOffer" data-ofertas></div>
+
 </section>        
 </section>
     <section class="information">       <!--INFORMATION-->
@@ -876,6 +137,8 @@
         </div>        
     </section>
 </main>
+<script type="module" src="./assets/js/services/filterNav.js"></script>
+<script type="module" src="./assets/js/products.js"></script>
 <script type="module" src="./assets/js/auth/login.js"></script>    
 </body>
 <footer class="footer">

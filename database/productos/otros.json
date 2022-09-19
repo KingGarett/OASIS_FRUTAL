@@ -1,0 +1,37 @@
+{
+    "productos": [
+        {   
+            "imagen": "jengibre",
+            "nombre": "jengibre",
+            "precio_monto": 80,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "ajis",
+            "nombre": "Ajies",
+            "precio_monto": 90,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "ajo",
+            "nombre": "Ajo",
+            "precio_monto": 130,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "quinotos",
+            "nombre": "Quinotos",
+            "precio_monto": 50,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        }
+    ]   
+}

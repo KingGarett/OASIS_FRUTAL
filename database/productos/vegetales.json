@@ -1,13 +1,316 @@
 {
     "productos": [
-        {
+        {   "imagen": "tomate-redondo",
             "nombre": "Tomate Redondo",
-            "precio": 200,
-            "oferta":"-"
+            "precio_monto": 250,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
         },{
-            "nombre": "Tomate Redondo",
-            "precio": 200,
-            "oferta":"-"
+            "imagen": "tomate-perita",
+            "nombre": "Tomate Perita",
+            "precio_monto": 150,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"kg",
+            "oferta_precio": 200
+        },{
+            "imagen": "tomate-cherry",
+            "nombre": "Tomate Cherry",
+            "precio_monto": 90,
+            "precio_tipo": "g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "lechuga-repollada",
+            "nombre": "Lechuga Repollada",
+            "precio_monto": 500,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "lechuga-manteca",
+            "nombre": "Lechuga Manteca",
+            "precio_monto": 500,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "lechuga-endivia",
+            "nombre": "Lechuga Endivia",
+            "precio_monto": 200,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "lechuguin",
+            "nombre": "Lechuguin",
+            "precio_monto": 150,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "zanahoria-oferta",
+            "nombre": "Zanahoria Oferta",
+            "precio_monto": 150,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"kg",
+            "oferta_precio": 200
+        },{
+            "imagen": "zanahoria-cubito",
+            "nombre": "Zanahoria Cubito",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "acelga",
+            "nombre": "Acelga",
+            "precio_monto": 100,
+            "precio_tipo": "u",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"u",
+            "oferta_precio": 150
+        },{
+            "imagen": "espinaca",
+            "nombre": "Espinaca",
+            "precio_monto": 150,
+            "precio_tipo": "u",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"u",
+            "oferta_precio": 200
+        },{
+            "imagen": "rucula",
+            "nombre": "Rucula",
+            "precio_monto": 150,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "papa-chica",
+            "nombre": "Papa Chica",
+            "precio_monto": 100,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "papa-grande",
+            "nombre": "Papa Grande",
+            "precio_monto": 180,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "cebolla-chica",
+            "nombre": "Cebolla Chica",
+            "precio_monto": 350,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "cebolla-grande",
+            "nombre": "Cebolla Grande",
+            "precio_monto": 400,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "cebolla-morada",
+            "nombre": "Cebolla Morada",
+            "precio_monto": 500,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "cebolla-verdeo",
+            "nombre": "Cebolla Verdeo",
+            "precio_monto": 700,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "apio",
+            "nombre": "Apio",
+            "precio_monto": 600,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "puerro",
+            "nombre": "Puerro",
+            "precio_monto": 600,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "perejil",
+            "nombre": "Perejil",
+            "precio_monto": 600,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "chaucha",
+            "nombre": "Chaucha",
+            "precio_monto": 40,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "repollo-blanco",
+            "nombre": "Repollo Blanco",
+            "precio_monto": 200,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "repollo-morado",
+            "nombre": "Repollo Morado",
+            "precio_monto": 200,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "remolacha",
+            "nombre": "Remolacha",
+            "precio_monto": 150,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "berenjena",
+            "nombre": "Berenjena",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "batata",
+            "nombre": "Batata",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "batata-boniato",
+            "nombre": "Batata Boniato",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "brocoli",
+            "nombre": "Brocoli",
+            "precio_monto": 250,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "coliflor",
+            "nombre": "Coliflor",
+            "precio_monto": 200,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "calabazin",
+            "nombre": "Calabacin",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "zapallo-negro",
+            "nombre": "Zapallo Brazilero",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "calabaza",
+            "nombre": "Calabaza",
+            "precio_monto": 300,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "zapallito",
+            "nombre": "Zapallito",
+            "precio_monto": 500,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "zapallito-zukini",
+            "nombre": "Zapallito zuchini",
+            "precio_monto": 150,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "pepino",
+            "nombre": "Pepino",
+            "precio_monto": 500,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "pimiento-rojo",
+            "nombre": "Pimiento Rojo",
+            "precio_monto": 250,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "pimiento-verde",
+            "nombre": "Pimiento Verde",
+            "precio_monto": 800,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{
+            "imagen": "pimiento-amarillo",
+            "nombre": "Pimiento Amarillo",
+            "precio_monto": 900,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
         }
     ]   
 }

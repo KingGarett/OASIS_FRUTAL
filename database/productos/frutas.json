@@ -1,0 +1,205 @@
+{
+    "productos": [
+        {   
+            "imagen": "banana",
+            "nombre": "Banana Ecuador",
+            "precio_monto": 400,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "banana",
+            "nombre": "Banana Boliviana",
+            "precio_monto": 350,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "naranja-jugo",
+            "nombre": "Naranja Jugo Primera",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "naranja-jugo",
+            "nombre": "Naranja Jugo Oferta",
+            "precio_monto": 100,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"kg",
+            "oferta_precio": 150
+        },{   
+            "imagen": "naranja-jugo",
+            "nombre": "Naranja Ombligo",
+            "precio_monto": 150,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "mandarina-criolla",
+            "nombre": "Mandarina Criolla",
+            "precio_monto": 250,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "mandarina-nova",
+            "nombre": "Mandarina Nova",
+            "precio_monto": 100,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"kg",
+            "oferta_precio": 150
+        },{   
+            "imagen": "manzana-deliciosa",
+            "nombre": "Manzana Deliciosa",
+            "precio_monto": 400,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "manzana-pink",
+            "nombre": "Manzana Pink",
+            "precio_monto": 350,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "manzana-verde",
+            "nombre": "Manzana Verde",
+            "precio_monto": 350,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "pera",
+            "nombre": "Pera",
+            "precio_monto": 250,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "pomelo",
+            "nombre": "Pomelo Primera",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "pomelo",
+            "nombre": "Pomelo Oferta",
+            "precio_monto": 100,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"kg",
+            "oferta_precio": 150
+        },{   
+            "imagen": "pomelo-rosado",
+            "nombre": "Pomelo Rosado",
+            "precio_monto": 200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "limon",
+            "nombre": "Limon",
+            "precio_monto": 100,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 2,
+            "oferta_tipo":"kg",
+            "oferta_precio": 150
+        },{   
+            "imagen": "aguacate",
+            "nombre": "Palta",
+            "precio_monto": 2200,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "frutilla",
+            "nombre": "Frutilla",
+            "precio_monto": 70,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "uva-cereza",
+            "nombre": "Uva",
+            "precio_monto": 90,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "uva-verde",
+            "nombre": "Uva verde",
+            "precio_monto": 90,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "kiwi",
+            "nombre": "Kiwi",
+            "precio_monto": 80,
+            "precio_tipo": "100g",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "melon",
+            "nombre": "Melon",
+            "precio_monto": 0,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "sandia",
+            "nombre": "Sandia",
+            "precio_monto": 0,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "anana",
+            "nombre": "Anana",
+            "precio_monto": 0,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "papaya",
+            "nombre": "Papaya",
+            "precio_monto": 0,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "mango",
+            "nombre": "Mango",
+            "precio_monto": 0,
+            "precio_tipo": "kg",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        }
+    ]   
+}

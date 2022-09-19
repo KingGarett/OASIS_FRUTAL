@@ -4,6 +4,11 @@
       "email": "ejemplo@ejemplo.com",
       "password": "ejemploejemplo",
       "id": "root"
+    },
+    {
+      "email": "perez@perez",
+      "password": "Perezperez1",
+      "id": "8dc21861-a2a1-4088-814f-3ff664133124"
     }
   ]
 }

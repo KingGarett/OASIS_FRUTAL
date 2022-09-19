@@ -1,0 +1,32 @@
+.categority{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area:categorias ;
+    grid-column: 1 / 5;
+    grid-row: auto;
+    gap: 1rem;
+    padding-top: 1rem;
+    align-items: flex-start;
+}
+
+.categority__products{
+    display: grid;
+    grid-template-areas: 
+    'img'
+    'info'
+    ;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    grid-template-columns: 100%;
+    width:calc(25% - 1rem) ;
+    grid-template-rows: 40% 55%;
+    border: 1px solid black;
+    gap: 10%;
+    height: 16rem;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.categority__products:hover{
+    background: linear-gradient(30deg,gold,white);
+}

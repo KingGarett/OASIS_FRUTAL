@@ -1,10 +1,8 @@
-import { userServices } from "../services/users.js"
-
-
+import { userServices } from "./users.js"
 //DESPLEGAR MENU LOGIN
 const spanLogin = () =>{
-    const login = document.querySelector('.login-btn')
-    login.addEventListener('click',(event) =>{
+    const span = document.querySelector('[data-login]')
+    span.addEventListener('click',(event) =>{
         event.preventDefault()
         const loginSpan = document.querySelector('[data-login-container]')
         loginSpan.classList.toggle('none')
@@ -20,28 +18,41 @@ registro.addEventListener('click',() =>{
 })
 
 // INICIAR SESION
-const obtenerUsuario = () =>{
+const verificarUsuario = async () =>{
     const inputEmail = document.querySelector('.login_verific_email').value
     const inputPassword = document.querySelector('.login_verific_password').value
-    let persona = {}
     
-    const select = userServices.findUser().then(users=>{
-        users.forEach(user=>{
-            if (user.email == inputEmail){
-                console.log(user)
-                return user
-                
-            }   
-            })        
-        })
-        .then(userSelect => persona = userSelect)
-    console.log(persona)
+    let valido = false
+    const usuarios =await userServices.findUser()
+    usuarios.forEach(usuario => {
+        if (usuario.email == inputEmail){
+            if (usuario.password ==inputPassword){
+                const loginSpan = document.querySelector('[data-login]')
+                loginSpan.textContent = inputEmail
+                valido = true
+                if (usuario.id == 'root'){
+                    loginSpan.textContent = 'root'
+                }
+            } 
+            else {
+                alert('La contraseña o el usuario son invalidos')
+            }
+        }else {
+            alert('La contraseña o el usuario son invalidos')
+        }
+    });  
+    return valido
 }
 
-const check = document.querySelector('.login_verific_btn')
-check.addEventListener('click',()=>{
-
-    obtenerUsuario()    
-    console.log(userServices.findUser())
+const loginBtn = document.querySelector('.login_verific_btn')
+loginBtn.addEventListener('click',async()=>{
+    const verificar =await verificarUsuario()
+    console.log(verificar)
+    if (verificar){
+        const loginSpan = document.querySelector('[data-login-container]')
+        loginSpan.classList.toggle('none')
+        const span = document.querySelector('[data-login]')
+        span.classList.add('login--succes')
+    }
     })
 

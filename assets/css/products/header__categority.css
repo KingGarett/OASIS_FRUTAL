@@ -1,0 +1,25 @@
+.header__products{
+    display: flex;
+    grid-column: 1/ 5;
+    grid-row: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--edu);
+    font-size: calc(.5em + 1.7vw);
+}
+
+.header__products--background{
+    background:rgb(95, 206, 119);
+    padding: 0 1rem;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.header__products__tittle{
+    font-weight: 500;   
+}
+
+.header__products__link{
+    color: #301a02;
+}

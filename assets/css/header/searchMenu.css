@@ -1,0 +1,28 @@
+.searchMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    width: calc(80% + 1rem);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.searchMenu__list__item{
+    list-style: none;
+    background-color: rgb(6, 53, 16);
+    border: 2px solid white;
+    padding: 0 1.8vw;
+    padding:1vw 0 ;
+    font-weight: 500;  
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.searchMenu__list__item:hover{
+    background-color: rgb(59, 201, 90);
+}
+
+.list__item__link{
+    color: white;
+}

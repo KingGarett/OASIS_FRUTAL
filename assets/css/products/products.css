@@ -1,0 +1,64 @@
+.categority__products__img{
+    grid-area: img;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+.categority__products__box{
+    display: grid;
+    grid-area: info;
+    grid-template-areas: 
+    'name'
+    'espacio'
+    'price'
+    'offer'
+    'btn';
+    grid-template-columns: auto;
+    grid-template-rows: 35% 5% 10% 30% 20%;
+    gap: 5%;
+    line-height: 150%;
+    padding: 0rem 10%;
+}
+
+.products__box__name{
+    grid-area: name;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+.products__box__price{
+    grid-area: price;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.products__box__offer{
+    grid-area: offer;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.products__box__container-btn{
+    grid-area: btn;
+    display: flex;
+    justify-content: center;
+}
+
+.products__box__btn{
+    color: black;
+    font-size: 1.3vw;
+    font-weight: 600;
+    background: linear-gradient(170deg,grey,white);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: .5vw 1vw;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.products__box__btn:hover{
+    background: linear-gradient(90deg,grey,white);
+}
+

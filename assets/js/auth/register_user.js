@@ -1,4 +1,4 @@
-import { userServices } from "../services/users.js";
+import { userServices } from "./users.js";
 
 const btn = document.querySelector('[data-create-btn]')
 btn.addEventListener('click',(event)=>{

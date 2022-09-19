@@ -1,0 +1,29 @@
+{
+    "productos": [
+        {   
+            "imagen": "huevo-maple",
+            "nombre": "Maple huevos",
+            "precio_monto": 750,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "huevo-maple",
+            "nombre": "Gallinas felices",
+            "precio_monto": 850,
+            "precio_tipo": "u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        },{   
+            "imagen": "huevo",
+            "nombre": "Media Docena",
+            "precio_monto": 250,
+            "precio_tipo": "6u",
+            "oferta_cantidad": 0,
+            "oferta_tipo":"",
+            "oferta_precio": 0
+        }
+    ]   
+}

@@ -2,3 +2,16 @@
     display: flex;
     flex-flow: column nowrap;
 }
+
+.login-btn:hover{
+    cursor:pointer;
+}
+
+.login--succes{
+    background-color: rgb(65, 122, 206);
+    color: white;
+    font-size: 2.5vw;
+    padding: .5vw;
+    text-align: center;
+    border: none;
+}
