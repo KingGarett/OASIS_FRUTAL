@@ -23,4 +23,4 @@ En el futuro se agregara el pago con tarjeta o medios digitales y démas funcion
 Hecho con javascript puro para conocer en profundidad el alcance del lenguaje.
 Mi proxima proyecto estará hecho en React JS.
 
-//Resultado click en este [link]("")
+// Resultado click en este [link](https://cozy-taffy-0cc357.netlify.app/)
