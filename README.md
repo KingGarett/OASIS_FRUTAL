@@ -3,7 +3,8 @@
    Verduleria OASIS FRUTAL
  </h1> 
 <hr> 
-
+   En construccion...
+   
    Proyecto real, para verduleria oasis frutal ubicada en cordoba argentina.
    A medida que el proyecto se complete y ya involucre transacciones o datos sensibles ya no subire codigo al repositorio.
    Quedaran los estilos y la lógica.
